@@ -1411,6 +1411,7 @@ form select {
 .navbar .normal-color {
   float: left;
   width: 100%;
+  margin-bottom: 53px;
 }
 .navbar .normal-color.opacity {
   -webkit-opacity: 0;
