@@ -149,11 +149,11 @@ function onPhotoLoaded(data, settings){
 			});
 
         } else {
-            alert('empty');
+            //alert('empty');
         }
 
     } else {
-        alert(data.meta.error_message);
+        //alert(data.meta.error_message);
     }
 }
 

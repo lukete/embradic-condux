@@ -1289,7 +1289,8 @@ form select {
   margin-bottom: 0;
 }
 .navbar.navbar-inverse {
-  background: #202020;
+  /*background: #202020;*/
+  background: #fff;
   border-bottom: solid 2px #d4d4d4;
 }
 .navbar.navbar-inverse .main-nav > li {
@@ -1395,7 +1396,7 @@ form select {
   display: none;
 }
 .navbar.navbar-inverse .social-nav > li > a {
-  color: white;
+  color: #000;
   -webkit-transition: all .4s ease-in-out;
   -moz-transition: all .4s ease-in-out;
   -o-transition: all .4s ease-in-out;
