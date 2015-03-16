@@ -662,10 +662,10 @@ figure img {
   border: none;
 }
 .pricing-box.suggested .panel-heading {
-  background: #f8434a;
+  background: #0093DD;
 }
 .pricing-box.suggested .price {
-  color: #f8434a;
+  color: #0093DD;
 }
 .pricing-box.suggested .panel-heading {
   color: white;
@@ -876,7 +876,7 @@ form select {
   background: #202020;
 }
 .oldal-icon.fill-icon.red-icon {
-  background: #f8434a;
+  background: #0093DD;
 }
 .oldal-icon.fill-icon.green-icon {
   background: #30cab5;
@@ -921,8 +921,8 @@ form select {
   color: #202020;
 }
 .oldal-icon.outline-icon.red-icon {
-  border: solid 2px #f8434a;
-  color: #f8434a;
+  border: solid 2px #0093DD;
+  color: #0093DD;
 }
 .oldal-icon.outline-icon.green-icon {
   border: solid 2px #30cab5;
@@ -1184,7 +1184,7 @@ form select {
   background: #202020;
 }
 .btn.btn-default {
-  background: #f8434a;
+  background: #0093DD;
 }
 .btn.btn-control {
   background: white;
@@ -1193,9 +1193,9 @@ form select {
   font-weight: 300;
 }
 .btn.btn-control:hover {
-  background: #f8434a;
+  background: #0093DD;
   color: white;
-  border: solid 1px #f8434a;
+  border: solid 1px #0093DD;
 }
 .btn.btn-info {
   background: #24c1dd;
@@ -1322,7 +1322,7 @@ form select {
   padding-bottom: 25px;
 }
 .navbar.navbar-inverse .main-nav > li > a:hover {
-  color: #f8434a;
+  color: #0093DD;
 }
 .navbar.navbar-inverse .main-nav > li ul {
   position: absolute;
@@ -1353,10 +1353,10 @@ form select {
   padding: 5px 20px;
 }
 .navbar.navbar-inverse .main-nav > li ul li:hover > a {
-  color: #f8434a;
+  color: #0093DD;
 }
 .navbar.navbar-inverse .main-nav > li ul li.active a {
-  color: #f8434a;
+  color: #0093DD;
 }
 .navbar.navbar-inverse .main-nav > li ul li a {
   float: left;
@@ -1406,7 +1406,7 @@ form select {
   padding: 15px 7px;
 }
 .navbar.navbar-inverse .social-nav > li > a:hover {
-  color: #f8434a;
+  color: #0093DD;
 }
 .navbar .normal-color {
   float: left;
@@ -1666,7 +1666,7 @@ form select {
   text-align: center;
 }
 .statement.simple.red {
-  background: #f8434a;
+  background: #0093DD;
 }
 .statement.simple.blue {
   background: #008ce7;
@@ -1797,8 +1797,8 @@ form select {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
-  background: #f8434a;
-  border: solid 1px #f8434a;
+  background: #0093DD;
+  border: solid 1px #0093DD;
   color: #ffffff;
   -webkit-opacity: 1;
   -moz-opacity: 1;
@@ -1942,7 +1942,7 @@ form select {
   transition: all .4s ease-in-out;
 }
 .footer-social li a:hover {
-  color: #f8434a;
+  color: #0093DD;
 }
 .team {
   float: left;
@@ -1970,7 +1970,7 @@ form select {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #f8434a;
+  background: #0093DD;
   -webkit-opacity: 0;
   -moz-opacity: 0;
   opacity: 0;
@@ -2101,7 +2101,7 @@ form select {
   height: 100%;
   top: 0;
   left: 0;
-  background: #f8434a;
+  background: #0093DD;
   -webkit-opacity: 0;
   -moz-opacity: 0;
   opacity: 0;
@@ -2186,7 +2186,7 @@ form select {
   height: 100%;
   top: 0;
   left: 0;
-  background: #f8434a;
+  background: #0093DD;
   -webkit-opacity: 0.8;
   -moz-opacity: 0.8;
   opacity: 0.8;
@@ -2393,10 +2393,10 @@ form select {
   text-transform: uppercase;
 }
 .oldal-tooltip.red {
-  color: #f8434a;
+  color: #0093DD;
 }
 .oldal-tooltip.red ~ .tooltip .tooltip-inner {
-  background: #f8434a;
+  background: #0093DD;
 }
 .oldal-tooltip.black {
   color: #202020;
@@ -2493,11 +2493,11 @@ form select {
   font-size: 40px;
 }
 .text-editor blockquote.red {
-  color: #f8434a;
-  border-left: solid 5px #f8434a;
+  color: #0093DD;
+  border-left: solid 5px #0093DD;
 }
 .text-editor blockquote.red i {
-  color: #f8434a;
+  color: #0093DD;
 }
 .text-editor blockquote.black {
   color: #202020;
@@ -2561,7 +2561,7 @@ form select {
   margin-left: 40px;
 }
 .text-editor .blockquote-wrapper.red {
-  background: #f8434a;
+  background: #0093DD;
   padding: 20px 35px;
   margin-bottom: 40px;
 }
@@ -2730,7 +2730,7 @@ form select {
   -moz-background-clip: padding;
   border-radius: 3px;
   background-clip: padding-box;
-  color: #f8434a;
+  color: #0093DD;
   padding: 15px 80px;
 }
 .action-call.red.dark {
@@ -2868,7 +2868,7 @@ form select {
   background: #30cab5;
 }
 .badge.red {
-  background: #f8434a;
+  background: #0093DD;
 }
 .badge.blue {
   background: #24c1dd;
@@ -3797,7 +3797,7 @@ form select {
   height: 100%;
   top: 0;
   left: 0;
-  background: #f8434a;
+  background: #0093DD;
   -webkit-opacity: 0;
   -moz-opacity: 0;
   opacity: 0;
@@ -4218,7 +4218,8 @@ form select {
 }
 
 .process:hover .fill-icon {
-  background:#f8434a; 
+  background:#0093DD; 
+  /* background:#0093DD; */
   color:#EDEDED; 
 }
 
@@ -4230,7 +4231,7 @@ form select {
 }
 
 .boxes .box:hover .black-icon {
-  color:#f8434a 
+  color:#0093DD 
 }
 
 .boxes .box .fill-icon.black-icon {
@@ -4241,7 +4242,7 @@ form select {
 }
 
 .boxes .box:hover .fill-icon.black-icon {
-  background:#f8434a; 
+  background:#0093DD; 
   color:#fff; 
 }
 
@@ -4253,7 +4254,7 @@ form select {
 }
 
 .boxes .box:hover .outline-icon.red-icon {
-  background:#f8434a; 
+  background:#0093DD; 
   color:#fff; 
 }
 
@@ -4267,8 +4268,8 @@ form select {
 
 .boxes .box:hover .fill-icon.red-icon {
   background:#fff; 
-  color:#f8434a;
-  border:2px solid #F8434A
+  color:#0093DD;
+  border:2px solid #0093DD
 }
 
 
@@ -4280,7 +4281,7 @@ form select {
 }
 
 .box:hover .oldal-icon.grey-icon.lg-icon {
-  color:#f8434a; 
+  color:#0093DD; 
 }
 
 .share li div.lightgrey-icon {
@@ -4291,7 +4292,7 @@ form select {
 }
 
 .share li:hover div.lightgrey-icon {
-  background:#f8434a 
+  background:#0093DD 
 }
 
 .simple-footer .white-icon {  
@@ -4301,7 +4302,7 @@ form select {
   transition: all .2s ease-in-out;
 }
 .simple-footer .white-icon:hover {
-	background:#F8434A
+	background:#0093DD
 }
 
 iframe {
