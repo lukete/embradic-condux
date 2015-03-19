@@ -207,12 +207,14 @@ var Oldal = {
             topOffset = headerSlider.outerHeight();
         }
         if(scrollTop >= topOffset) {
+            $('#control-logo-menu').show();
             secondHeader.addClass('sticky');
             firstHeader.addClass('opacity');
             searchWrap.addClass('sticky');
             searchWrap.css('top', secondHeaderH + "px");
             $("body").css('padding-top', secondHeaderH+'px');
         } else {
+            $('#control-logo-menu').hide();
             firstHeader.removeClass('opacity');
             secondHeader.removeClass('sticky');
             searchWrap.removeClass('sticky');
@@ -224,6 +226,7 @@ var Oldal = {
 
 $(document).ready(function() {
     Oldal.init();
+
 });
 $(window).resize(function() {
     Oldal.hideBigSearch();

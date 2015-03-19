@@ -1411,7 +1411,7 @@ form select {
 .navbar .normal-color {
   float: left;
   width: 100%;
-  margin-bottom: 53px;
+  /*margin-bottom: 53px;*/
 }
 .navbar .normal-color.opacity {
   -webkit-opacity: 0;
@@ -1511,7 +1511,7 @@ form select {
 .navbar .header-slider {
   float: left;
   width: 100%;
-  margin-top: -51px;
+  /*margin-top: -51px;*/
   position: relative;
   z-index: 1;
 }
@@ -4331,4 +4331,13 @@ iframe {
 
 .footer-info a {
   color: #202020;
+}
+#control-logo-menu{
+  display: none;
+}
+  #control-logo-menu a{
+    margin-top: -11px;
+  }
+  #control-logo-menu img{
+    width: 165px;
 }
