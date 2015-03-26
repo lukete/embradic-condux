@@ -29,56 +29,39 @@
     <div class="top-header hidden-xs">
       <div class="container">
         <div class="row">
-          <div class="col-md-4 col-sm-6">
+          <div class="col-md-8 col-sm-6">
             <ul class="horiz-nav pull-left">
-              <li class="dropdown"><a data-toggle="dropdown"><i class="fa fa-user"></i> Entrar <b class="caret"></b></a>
+                  <li><a href="https://www.facebook.com/artolex.corretora" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="https://twitter.com/artolex.corretora" target="_blank"><i class="fa fa-twitter"></i></a></li>
+              </ul>
+            </div>
+
+          <div class="col-md-4 col-sm-6">
+            
+            <ul class="horiz-nav pull-right">
+              <li><a href="login.html">Cadastrar</a></li>
+              <li class="dropdown"><a data-toggle="dropdown">Minha Conta <b class="caret"></b></a>
                 <ul class="dropdown-menu">
                   <li><a href="minhas-propriedades.html">Minhas Propriedades</a></li>
                   <li><a href="adicionar-imovel.html">Adicionar Propriedade</a></li>
                   <li><a href="editar-conta.html">Minha Conta</a></li>
                 </ul>
               </li>
-              <li><a href="login.html"><i class="fa fa-check-circle"></i> Cadastrar</a></li>
               </ul>
           </div>
-          <div class="col-md-8 col-sm-6">
-            <ul class="horiz-nav pull-right">
-                  <li><a href="https://www.facebook.com/artolex.corretora" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                  <li><a href="https://twitter.com/artolex.corretora" target="_blank"><i class="fa fa-twitter"></i></a></li>
-              </ul>
-            </div>
+         
         </div>
       </div>
     </div>
     <div class="middle-header">
       <div class="container">
         <div class="row">
-          <div class="col-md-4 col-sm-8 col-xs-8">
+          <div class="col-md-2 col-sm-6 col-xs-6">
             <h1 class="logo"> <a href="index.html"><img src="images/logo.png" alt="Logo" width="165"></a> </h1>
           </div>
-          <div class="col-md-8 col-sm-4 col-xs-4">
-              <div class="contact-info-blocks hidden-sm hidden-xs">
-                  <div>
-                      <i class="fa fa-phone"></i> Telefone
-                    <span>+55 (32) 3531-7544</span>
-                </div>
-                  <div>
-                      <i class="fa fa-envelope"></i> Email
-                    <span><a target="_blank" style="text-decoration:none" href="mailto:contato@artolex.com.br">contato@artolex.com.br</a></span>
-                </div>
-                  <div>
-                      <i class="fa fa-clock-o"></i> Horário de Funcionamento
-                    <span>09:00 às 18:00</span>
-                </div>
-             </div>
-              <a href="#" class="visible-sm visible-xs menu-toggle"><i class="fa fa-bars"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
+    <div class="col-md-10 col-sm-8 col-xs-8" style="margin-top: 13px;">
     <div class="main-menu-wrapper">
-      <div class="container">
-        <div class="row">
+        <div class="row" style="float: right;">
           <div class="col-md-12">
             <nav class="navigation">
               <ul class="sf-menu">
@@ -92,8 +75,12 @@
             </nav>
           </div>
         </div>
+    </div>
+</div>
+        </div>
       </div>
     </div>
+
   </header>
 
   <div class="site-showcase">
@@ -102,36 +89,45 @@
       <ul class="slides">
         <li class=" parallax" style="background-image:url(images/slide2.jpg);">
           <div class="flex-caption">
-              <strong class="title">Rua São José, 485 - Centro <em>Ubá / MG</em></strong>
-             <div class="price"><strong>R$</strong><span>1.500 / mensal</span></div>
+              <strong class="title location">Rua São José, 485 - Centro <em>Ubá / MG</em></strong>
+              <span class="label label-success col-md-12">R$ 1.500</span>
+              <br />
              <a href="propriedades-detalhes.html" class="btn btn-primary btn-block">Conheça</a>
-              <div class="hero-agent">
+             <!-- <div class="hero-agent">
                   <img src="images/aartolex.jpg" alt="" class="hero-agent-pic">
                   <a href="detalhes-agente.html" class="hero-agent-contact" data-placement="left"  data-toggle="tooltip" title="" data-original-title="Fale com a Artolex!"><i class="fa fa-envelope"></i></a>
-             </div>
+             </div> -->
           </div>
         </li>
         <li class="parallax" style="background-image:url(images/slide3.jpg);">
           <div class="flex-caption">
-             <strong class="title">Rua Prof. Carlos Machado, 285 apto 302 - Boa Vista <em>Ubá / MG</em></strong>
-             <div class="price"><strong>$</strong><span>500.000</span></div>
+             <strong class="title location">Rua Prof. Carlos Machado, 285 apto 302 - Boa Vista <em>Ubá / MG</em></strong>
+             <span class="label label-success col-md-12">R$ 1.500</span>
+             <br />
               <a href="propriedades-detalhes.html" class="btn btn-primary btn-block">Conheça</a>
-              <div class="hero-agent">
+             <!-- <div class="hero-agent">
                   <img src="images/aartolex.jpg" alt="" class="hero-agent-pic">
                   <a href="detalhes-agente.html" class="hero-agent-contact" data-placement="left"  data-toggle="tooltip" title="" data-original-title="Fale com a Artolex!"><i class="fa fa-envelope"></i></a>
               </div>
-          </div>
+          </div> -->
         </li>
       </ul>
     </div>
-    <div class="site-search-module">
+    
+  </div>
+
+  <div class="main" role="main">
+    <div id="content" class="content full">
+    <!-- SITE SEARCH -->
+    <div class="site-search-module" id="option-fixed">
       <div class="container">
         <div class="site-search-module-inside">
+        <center><h4>Pesquise seu imóvel</h4></center>
           <form action="#">
             <div class="form-group">
               <div class="row">
-                <div class="col-md-2">
-                    <select name="propery type" class="form-control input-lg selectpicker">
+                <div class="col-md-4">
+                    <select multiple name="propery type" class="form-control input-sm selectpicker">
                         <option selected>Tipo de imóvel</option>
                         <option>Casa</option>
                         <option>Apartamento</option>
@@ -142,14 +138,14 @@
                     </select>
                 </div>
                 <div class="col-md-2">
-                    <select name="propery contract type" class="form-control input-lg selectpicker">
+                    <select multiple name="propery contract type" class="form-control input-sm selectpicker">
                       <option selected>Interesse</option>
                       <option>Comprar</option>
                       <option>Alugar</option>
                     </select>
                 </div>
                 <div class="col-md-2">
-                    <select name="propery location" class="form-control input-lg selectpicker">
+                    <select multiple name="propery location" class="form-control input-sm selectpicker">
                       <option selected>Cidade</option>
                       <option>Ubá</option>
                       <option>Rodeiro</option>
@@ -161,7 +157,7 @@
                     </select>
                 </div>
                  <div class="col-md-2">
-                    <select name="propery location" class="form-control input-lg selectpicker">
+                    <select multiple name="propery location" class="form-control input-sm selectpicker">
                       <option selected>Bairro</option>
                       <option>Centro</option>
                       <option>Palmeiras</option>
@@ -170,14 +166,13 @@
                       <option>Bom Pastor</option>
                     </select>
                 </div>
-                <div class="col-md-2"> <button type="submit" class="btn btn-primary btn-block btn-lg"><i class="fa fa-search"></i> Encontrar</button> </div>
-                <div class="col-md-2"> <a href="#" id="ads-trigger" class="btn btn-default btn-block"><i class="fa fa-plus"></i> <span>Opções</span></a> </div>
+                <!-- <div class="col-md-2"> <a href="#" id="ads-trigger" class="btn btn-default btn-block"><i class="fa fa-plus"></i> <span>Opções</span></a> </div> -->
               </div>
-              <div class="row hidden-xs hidden-sm">
-                <div class="col-md-2">
+              <div class="row">
+                <div class="col-md-3">
                   <label>Mínimo de Quartos</label>
-                    <select name="beds" class="form-control input-lg selectpicker">
-                      <option>Qualquer</option>
+                    <select multiple name="beds" class="form-control input-sm selectpicker">
+                      <option selected>Qualquer</option>
                       <option>1</option>
                       <option>2</option>
                       <option>3</option>
@@ -190,10 +185,10 @@
                       <option>10</option>
                     </select>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-3">
                   <label>Mínimo de Banheiros</label>
-                    <select name="beds" class="form-control input-lg selectpicker">
-                      <option>Qualquer</option>
+                    <select multiple name="beds" class="form-control input-sm selectpicker">
+                      <option selected>Qualquer</option>
                       <option>1</option>
                       <option>2</option>
                       <option>3</option>
@@ -208,8 +203,8 @@
                 </div>
                 <div class="col-md-2">
                   <label>Preço Mínimo</label>
-                    <select name="beds" class="form-control input-lg selectpicker">
-                      <option>Qualquer</option>
+                    <select multiple name="beds" class="form-control input-sm selectpicker">
+                      <option selected>Qualquer</option>
                       <option>R$ 500,00</option>
                       <option>R$ 1.000,00</option>
                       <option>R$ 1.500,00</option>
@@ -220,8 +215,8 @@
                 </div>
                 <div class="col-md-2">
                   <label>Preço Máximo</label>
-                    <select name="beds" class="form-control input-lg selectpicker">
-                      <option>Qualquer</option>
+                    <select multiple name="beds" class="form-control input-sm selectpicker">
+                      <option selected>Qualquer</option>
                       <option>R$ 500,00</option>
                       <option>R$ 1.000,00</option>
                       <option>R$ 1.500,00</option>
@@ -230,23 +225,17 @@
                       <option>R$ 3.000,00</option>
                     </select>
                 </div>
-                <div class="col-md-2">
-                  <label>Área Máx (mts)</label>
-                  <input type="text" class="form-control input-lg" placeholder="Qualquer">
                 </div>
-                <div class="col-md-2">
-                  <label>Área Máx (mts)</label>
-                  <input type="text" class="form-control input-lg" placeholder="Qualquer">
+                <br />
+                <div class="col-md-12"> <button type="submit" class="btn btn-primary btn-block btn-lg"><i class="fa fa-search"></i> Encontrar</button> 
                 </div>
-              </div>
             </div>
           </form>
         </div>
       </div>
-    </div>
-  </div>
-  <div class="main" role="main">
-    <div id="content" class="content full">
+    </div> <!-- SITE SEARCH -->
+    <br /> <br />
+    <!--
       <div class="featured-blocks">
         <div class="container">
           <div class="row">
@@ -265,14 +254,14 @@
           </div>
         </div>
       </div>
+-->
       <div class="spacer-40"></div>
     <div class="container">
       <div class="row">
           <div class="property-columns" id="latest-properties">
               <div class="col-md-12">
                 <div class="block-heading">
-                  <h4><span class="heading-icon"><i class="fa fa-leaf"></i></span>Recém Cadastrados</h4>
-                  <a href="propriedades-simples-list.html" class="btn btn-primary btn-sm pull-right">Ver mais opções <i class="fa fa-long-arrow-right"></i></a>
+                  <h4>Recém Cadastrados</h4>
                 </div>
               </div>
               <ul>
@@ -281,18 +270,19 @@
                           <a href="propriedades-detalhes.html" class="property-featured-image">
                               <img src="images/casa1.jpg" alt="">
                               <span class="images-count"><i class="fa fa-picture-o"></i> 2</span>
-                              <span class="badges">Locação</span>
+                              
                           </a>
                       <div class="property-info">
                               <h4><a href="propriedades-detalhes.html">Casa - Centro</a></h4>
                               <span class="location">Ubá / MG</span>
-                              <div class="price"><strong>R$</strong><span>2.800 Mensal</span></div>
+                              <span class="label label-info col-md-12">ALUGUEL</span>
+                              <span class="label label-success col-md-12">R$ 1.500</span>
                       </div>
                       <div class="property-amenities clearfix">
-                              <span class="area"><strong>5000</strong>Área</span>
-                              <span class="baths"><strong>4</strong>Quartos</span>
-                              <span class="beds"><strong>3</strong>Banheiros</span>
-                              <span class="parking"><strong>1</strong>Garagem</span>
+                              <span class="area"><strong>5000</strong><i class="icon-sqft"></i></span></span>
+                              <span class="baths"><strong>3</strong><i class="icon-bath"></i></span>
+                              <span class="beds"><strong>2</strong><i class="icon-bed"></i></span>
+ <span class="parking"><strong>1</strong><i class="icon-garage"></i></span>
                           </div>
                       </div>
                 </li>
@@ -301,18 +291,19 @@
                           <a href="propriedades-detalhes.html" class="property-featured-image">
                               <img src="images/casa2.jpg" alt="">
                               <span class="images-count"><i class="fa fa-picture-o"></i> 2</span>
-                              <span class="badges">Venda</span>
+                              
                           </a>
                       <div class="property-info">
                               <h4><a href="propriedades-detalhes.html">Apartamento - Boa Vista</a></h4>
                               <span class="location">Ubá / MG</span>
-                              <div class="price"><strong>R$</strong><span>530.000</span></div>
+                              <span class="label label-info col-md-12">ALUGUEL</span>
+                              <span class="label label-success col-md-12">R$ 1.500</span>
                       </div>
                       <div class="property-amenities clearfix">
-                              <span class="area"><strong>5000</strong>Área</span>
-                              <span class="baths"><strong>3</strong>Quartos</span>
-                              <span class="beds"><strong>3</strong>Banheiros</span>
-                              <span class="parking"><strong>1</strong>Garagem</span>
+                              <span class="area"><strong>5000</strong><i class="icon-sqft"></i></span>
+                              <span class="baths"><strong>3</strong><i class="icon-bath"></i></span>
+                              <span class="beds"><strong>2</strong><i class="icon-bed"></i></span>
+                               <span class="parking"><strong>1</strong><i class="icon-garage"></i></span>
                           </div>
                       </div>
                 </li>
@@ -321,18 +312,19 @@
                           <a href="propriedades-detalhes.html" class="property-featured-image">
                               <img src="images/casa3.jpg" alt="">
                               <span class="images-count"><i class="fa fa-picture-o"></i> 2</span>
-                              <span class="badges">Locação</span>
+                              
                           </a>
                       <div class="property-info">
                               <h4><a href="propriedades-detalhes.html">Sala - Centro</a></h4>
                               <span class="location">Ubá / MG</span>
-                              <div class="price"><strong>R$</strong><span>2.200 Mensal</span></div>
+                              <span class="label label-info col-md-12">ALUGUEL</span>
+                              <span class="label label-success col-md-12">R$ 1.500</span>
                       </div>
                       <div class="property-amenities clearfix">
-                              <span class="area"><strong>600m2</strong>Área</span>
-                              <span class="baths"><strong>1</strong>Elevador</span>
-                              <span class="beds"><strong>2</strong>Banheiros</span>
-                              <span class="parking"><strong>1</strong>Garagem</span>
+                              <span class="area"><strong>600m2</strong><i class="icon-sqft"></i></span>
+                              <span class="baths"><strong>3</strong><i class="icon-bath"></i></span>
+                              <span class="beds"><strong>2</strong><i class="icon-bed"></i></span>
+                               <span class="parking"><strong>1</strong><i class="icon-garage"></i></span>
                           </div>
                       </div>
                 </li>
@@ -341,18 +333,19 @@
                           <a href="propriedades-detalhes.html" class="property-featured-image">
                               <img src="images/casa4.jpg" alt="">
                               <span class="images-count"><i class="fa fa-picture-o"></i> 2</span>
-                              <span class="badges">Venda</span>
+                              
                           </a>
                       <div class="property-info">
                               <h4><a href="propriedades-detalhes.html">Casa - Palmeiras</a></h4>
                               <span class="location">Ubá / MG</span>
-                              <div class="price"><strong>R$</strong><span>480.000</span></div>
+                              <span class="label label-info col-md-12">ALUGUEL</span>
+                              <span class="label label-success col-md-12">R$ 1.500</span>
                       </div>
                       <div class="property-amenities clearfix">
-                              <span class="area"><strong>5000</strong>Área</span>
-                              <span class="baths"><strong>3</strong>Quartos</span>
-                              <span class="beds"><strong>3</strong>Banheiros</span>
-                              <span class="parking"><strong>2</strong>Garagem</span>
+                              <span class="area"><strong>5000</strong><i class="icon-sqft"></i></span>
+                              <span class="baths"><strong>3</strong><i class="icon-bath"></i></span>
+                              <span class="beds"><strong>2</strong><i class="icon-bed"></i></span>
+                               <span class="parking"><strong>1</strong><i class="icon-garage"></i></span>
                           </div>
                       </div>
                 </li>
@@ -361,18 +354,19 @@
                           <a href="propriedades-detalhes.html" class="property-featured-image">
                               <img src="images/casa2.jpg" alt="">
                               <span class="images-count"><i class="fa fa-picture-o"></i> 2</span>
-                              <span class="badges">Locação</span>
+                              
                           </a>
                       <div class="property-info">
                               <h4><a href="propriedades-detalhes.html">Apartamento - Centro</a></h4>
                               <span class="location">Tocantis / MG</span>
-                              <div class="price"><strong>R$</strong><span>2.800 Mensal</span></div>
+                              <span class="label label-info col-md-12">ALUGUEL</span>
+                              <span class="label label-success col-md-12">R$ 1.500</span>
                       </div>
                       <div class="property-amenities clearfix">
-                              <span class="area"><strong>5000</strong>Área</span>
-                              <span class="baths"><strong>3</strong>Quartos</span>
-                              <span class="beds"><strong>3</strong>Banheiros</span>
-                              <span class="parking"><strong>1</strong>Garagem</span>
+                              <span class="area"><strong>5000</strong><i class="icon-sqft"></i></span>
+                              <span class="baths"><strong>3</strong><i class="icon-bath"></i></span>
+                              <span class="beds"><strong>2</strong><i class="icon-bed"></i></span>
+                               <span class="parking"><strong>1</strong><i class="icon-garage"></i></span>
                           </div>
                       </div>
                 </li>
@@ -381,31 +375,36 @@
                           <a href="propriedades-detalhes.html" class="property-featured-image">
                               <img src="images/casa3.jpg" alt="">
                               <span class="images-count"><i class="fa fa-picture-o"></i> 2</span>
-                              <span class="badges">Venda</span>
+                              
                           </a>
                       <div class="property-info">
                               <h4><a href="propriedades-detalhes.html">Casa - São José</a></h4>
                               <span class="location">Rodeiro / MG</span>
-                              <div class="price"><strong>R$</strong><span>680.000</span></div>
+                              <span class="label label-info col-md-12">ALUGUEL</span>
+                              <span class="label label-success col-md-12">R$ 1.500</span>
                       </div>
                       <div class="property-amenities clearfix">
-                              <span class="area"><strong>5000</strong>Área</span>
-                              <span class="baths"><strong>3</strong>Quartos</span>
-                              <span class="beds"><strong>3</strong>Banheiros</span>
-                              <span class="parking"><strong>1</strong>Garagem</span>
+                              <span class="area"><strong>5000</strong><i class="icon-sqft"></i></span>
+                              <span class="baths"><strong>3</strong><i class="icon-bath"></i></span>
+                              <span class="beds"><strong>2</strong><i class="icon-bed"></i></span>
+                               <span class="parking"><strong>1</strong><i class="icon-garage"></i></span>
                           </div>
                       </div>
                 </li>
               </ul>
           </div>
+          <a href="propriedades-simples-list.html" style="width: 100%;" class="btn btn-primary">Ver mais opções</a>
         </div>
       </div>
+      <br />
+      <br />
+      <br />
       <div id="featured-properties">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
               <div class="block-heading">
-                <h4><span class="heading-icon"><i class="fa fa-star"></i></span>Destaques</h4>
+                <h4>Destaques</h4>
               </div>
             </div>
           </div>
@@ -415,72 +414,77 @@
                       <a href="propriedades-detalhes.html" class="property-featured-image">
                       <img src="images/casa1.jpg" alt="">
                       <span class="images-count"><i class="fa fa-picture-o"></i> 2</span>
-                      <span class="badges">Locação</span>
                       </a>
                       <div class="property-info">
                           <h4><a href="propriedades-detalhes.html">Sala - Centro</a></h4>
                           <span class="location">Ubá / MG</span>
-                          <div class="price"><strong>R$</strong><span>2.800 Mensal</span></div>
+                          <span class="label label-info col-md-12">VENDA</span>
+                          <span class="label label-success col-md-12">R$ 1.500</span>
                       </div>
                   </li>
                   <li class="item property-block">
                   <a href="propriedades-detalhes.html" class="property-featured-image">
                       <img src="images/casa3.jpg" alt="">
                       <span class="images-count"><i class="fa fa-picture-o"></i> 2</span>
-                          <span class="badges">Venda</span>
+                          
                       </a>
                       <div class="property-info">
                           <h4><a href="propriedades-detalhes.html">Sala - Centro</a></h4>
                           <span class="location">Ubá / MG</span>
-                          <div class="price"><strong>R$</strong><span>250.000</span></div>
+                          <span class="label label-info col-md-12">VENDA</span>
+                          <span class="label label-success col-md-12">R$ 1.500</span>
                       </div>
                   </li>
                   <li class="item property-block">
                       <a href="propriedades-detalhes.html" class="property-featured-image">
                           <img src="images/casa1.jpg" alt="">
                           <span class="images-count"><i class="fa fa-picture-o"></i> 2</span>
-                          <span class="badges">Venda</span>
+                          
                       </a>
                       <div class="property-info">
                           <h4><a href="propriedades-detalhes.html">Sala - Centro</a></h4>
                           <span class="location">Tocantins / MG</span>
-                          <div class="price"><strong>R$</strong><span>300.000</span></div>
+                          <span class="label label-info col-md-12">VENDA</span>
+                          <span class="label label-success col-md-12">R$ 1.500</span>
                       </div>
                   </li>
                   <li class="item property-block">
                       <a href="propriedades-detalhes.html" class="property-featured-image">
                           <img src="images/casa2.jpg" alt="">
                           <span class="images-count"><i class="fa fa-picture-o"></i> 2</span>
-                          <span class="badges">Locação</span>
+                          
                       </a>
                       <div class="property-info">
                           <h4><a href="propriedades-detalhes.html">Sala - São José</a></h4>
                           <span class="location">Rodeiro / MG</span>
-                          <div class="price"><strong>R$</strong><span>3.100 Mensal</span></div>
+                          <span class="label label-info col-md-12">VENDA</span>
+                          <span class="label label-success col-md-12">R$ 1.500</span>
                       </div>
                   </li>
                   <li class="item property-block">
                   <a href="propriedades-detalhes.html" class="property-featured-image">
                           <img src="images/casa4.jpg" alt="">
                           <span class="images-count"><i class="fa fa-picture-o"></i> 2</span>
-                          <span class="badges">Venda</span>
+                          
                       </a>
                       <div class="property-info">
                           <h4><a href="propriedades-detalhes.html">Sala - Centro</a></h4>
                           <span class="location">Ubá / MG</span>
-                          <div class="price"><strong>R$</strong><span>500.000</span></div>
+                          <span class="label label-info col-md-12">VENDA</span>
+                          <span class="label label-success col-md-12">R$ 1.500</span>
                       </div>
                   </li>
                   <li class="item property-block">
                       <a href="propriedades-detalhes.html" class="property-featured-image">
                           <img src="images/casa1.jpg" alt="">
                           <span class="images-count"><i class="fa fa-picture-o"></i> 2</span>
-                          <span class="badges">Locação</span>
+                          
                       </a>
                       <div class="property-info">
                           <h4><a href="propriedades-detalhes.html">Sala - Centro</a></h4>
                           <span class="location">Rodeiro / MG</span>
-                          <div class="price"><strong>R$</strong><span>500 Mensal</span></div>
+                          <span class="label label-info col-md-12">VENDA</span>
+                          <span class="label label-success col-md-12">R$ 1.500</span>
                       </div>
                   </li>
               </ul>
@@ -496,7 +500,7 @@
                     <div class="row">
                       <div class="col-md-9 col-sm-9 col-xs-9">
                           <h4><a href="detalhes-agente.html">Conheça nosso serviço de terraplanagem, entre em contato.</a></h4>
-                              <a href="detalhes-agente.html" class="btn btn-sm btn-primary">mais informações</a>
+                              <a href="detalhes-agente.html" class="btn btn-lg btn-primary">mais informações</a>
                        </div>
                        <div class="col-md-9 col-sm-9 col-xs-9">
                               <ul class="contact-info">
@@ -528,49 +532,55 @@
       <div class="container">
           <div class="row">
             <div class="col-md-3 col-sm-6 footer-widget widget">
-                <h3 class="widgettitle">LINKS</h3>
+                <h3 class="widgettitle">Lorem</h3>
+               <p>
+                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel
+                 orem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel
+                 orem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel
+               </p>
+           </div>
+
+            <div class="col-md-6 col-sm-10 footer-widget widget">
+                <h3 class="widgettitle">Contato</h3>
+               <p>
+                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel
+                 orem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel
+                 orem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel
+               </p>
+
+               <div class="col-md-10 col-sm-4 col-xs-4">
+              <div class="contact-info-blocks hidden-sm hidden-xs">
+                  <div>
+                      <i class="fa fa-phone"></i>
+                    <span>+55 (32) 3531-7544</span>
+                </div>
+                  <div>
+                      <i class="fa fa-envelope"></i>
+                    <span><a target="_blank" style="text-decoration:none" href="mailto:contato@artolex.com.br">contato@artolex.com.br</a></span>
+                </div>
+                <br />
+                  <div>
+                      <i class="fa fa-clock-o"></i>
+                    <span>09:00 às 18:00</span>
+                </div>
+             </div>
+              <a href="#" class="visible-sm visible-xs menu-toggle"><i class="fa fa-bars"></i></a>
+          </div>
+
+           </div>
+
+              <div class="col-md-3 col-sm-6 footer-widget widget">
+                <h3 class="widgettitle">ITEMS</h3>
                <ul>
-                <li><a href="">Link</a></li>
-                <li><a href="">Link</a></li>
-                <li><a href="">Link</a></li>
-                <li><a href="">Link</a></li>
-                <li><a href="">Link</a></li>
+                <li><a href="">Item</a></li>
+                <li><a href="">Item</a></li>
+                <li><a href="">Item</a></li>
+                <li><a href="">Item</a></li>
+                <li><a href="">Item</a></li>
+                <li><a href="">Item</a></li>
                </ul>
            </div>
 
-            <div class="col-md-3 col-sm-6 footer-widget widget">
-                <h3 class="widgettitle">LINKS</h3>
-               <ul>
-                <li><a href="">Link</a></li>
-                <li><a href="">Link</a></li>
-                <li><a href="">Link</a></li>
-                <li><a href="">Link</a></li>
-                <li><a href="">Link</a></li>
-               </ul>
-           </div>
-
-  
-            <div class="col-md-3 col-sm-6 footer-widget widget">
-                <h3 class="widgettitle">LINKS</h3>
-               <ul>
-                <li><a href="">Link</a></li>
-                <li><a href="">Link</a></li>
-                <li><a href="">Link</a></li>
-                <li><a href="">Link</a></li>
-                <li><a href="">Link</a></li>
-               </ul>
-           </div>
-
-            <div class="col-md-3 col-sm-6 footer-widget widget">
-                <h3 class="widgettitle">LINKS</h3>
-               <ul>
-                <li><a href="">Link</a></li>
-                <li><a href="">Link</a></li>
-                <li><a href="">Link</a></li>
-                <li><a href="">Link</a></li>
-                <li><a href="">Link</a></li>
-               </ul>
-           </div>
        </div>
    </div>
   </footer>

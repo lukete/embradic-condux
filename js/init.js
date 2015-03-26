@@ -39,10 +39,10 @@ var REAL = window.REAL || {};
 
 	REAL.navMenu = function() {
 		// Responsive Menu Events
-		$(".menu-toggle").click(function(){
+		/*$(".menu-toggle").click(function(){
 			$(".main-menu-wrapper").slideToggle();
 			return false;
-		});
+		});*/
 		$(window).resize(function(){
 			if($(".menu-toggle").hasClass("opened")){
 				$(".main-menu-wrapper").css("display","block");
@@ -318,7 +318,7 @@ var REAL = window.REAL || {};
 		if($("body").hasClass("boxed"))
 			return false;
 		if ($(window).width() > 992){
-			$(".main-menu-wrapper").sticky({topSpacing:0});
+			/*$(".main-menu-wrapper").sticky({topSpacing:0});*/
 		}
 	}
 $(document).ready(function(){
@@ -341,22 +341,22 @@ $(document).ready(function(){
 });
 
 /* Design Related Scripts */
-$(".flex-caption").each(function(){
+/*$(".flex-caption").each(function(){
 	$(this).prepend('<i class="fa fa-caret-down"></i>');
-});
+});*/
 $(".block-heading").each(function(){
 	$(this).find('.heading-icon').prepend('<i class="fa fa-caret-right icon-design"></i>');
 });
 $(".property-featured-image").each(function(){
 	PIheight = $(this).find("img").outerHeight();
-	$(this).prepend("<div class='overlay' style='line-height:"+PIheight+"px'><i class='fa fa-search'></i></div>");
+	$(this).prepend("<div class='overlay' style='line-height:"+PIheight+"px'><button class='btn btn-primary btn-block btn-lg'>Conhecer</button></div>");
 });
 $(".agent-featured-image").each(function(){
 	PIheight = $(this).find("img").outerHeight();
-	$(this).prepend("<div class='overlay' style='line-height:"+PIheight+"px'><i class='fa fa-plus'></i></div>");
+	$(this).prepend("<div class='overlay' style='line-height:"+PIheight+"px'><button class='btn btn-primary btn-block btn-lg'>Conhecer</button></div>");
 });
 $(".format-image").each(function(){
-	$(this).find(".media-box").append("<span class='zoom'><i class='fa fa-search'></i></span>");
+	$(this).find(".media-box").append("<span class='zoom'><i class='fa fa-plus'></i></span>");
 });
 $(".format-standard").each(function(){
 	$(this).find(".media-box").append("<span class='zoom'><i class='fa fa-plus'></i></span>");
@@ -385,11 +385,11 @@ $(window).resize(function(){
 		$(this).css("height", mpheight);
 		$(this).css("line-height", mpheight+"px");
 	});
-	if ($(window).width() > 992){
+	/*if ($(window).width() > 992){
 		$(".main-menu-wrapper").css("display","block");
 	} else {
 		$(".main-menu-wrapper").css("display","none");
-	}
+	}*/
 });
 
 $('#ads-trigger').click(function () {	
