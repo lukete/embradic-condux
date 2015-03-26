@@ -26,7 +26,7 @@
   
   <!-- INICIO Header -->
   <header class="site-header">
-    <div class="top-header hidden-xs">
+    <!-- <div class="top-header hidden-xs">
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-sm-6">
@@ -52,7 +52,7 @@
          
         </div>
       </div>
-    </div>
+    </div> -->
     <div class="middle-header">
       <div class="container">
         <div class="row">
@@ -69,8 +69,15 @@
                 <li><a href="empresa.html">Empresa</a></li>
                 <li><a href="propriedades-simples-list.html">Venda</a></li>
                 <li><a href="propriedades-simples-list.html">Locação</a></li>
-                <li><a href="login.html">Área do Cliente</a></li>
                 <li><a href="contato.html">Contato</a></li>
+                <li><a href="login.html">Cadastrar</a></li>
+                <li class="dropdown"><a data-toggle="dropdown">Conta</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="minhas-propriedades.html">Minhas Propriedades</a></li>
+                    <li><a href="adicionar-imovel.html">Adicionar Propriedade</a></li>
+                    <li><a href="editar-conta.html">Editar Minha Conta</a></li>
+                  </ul>
+              </li>
               </ul>
             </nav>
           </div>
@@ -88,15 +95,19 @@
     <div class="hero-slider flexslider clearfix" data-autoplay="yes" data-pagination="no" data-arrows="yes" data-style="fade" data-pause="yes">
       <ul class="slides">
         <li class=" parallax" style="background-image:url(images/slide2.jpg);">
-          <div class="flex-caption">
-              <strong class="title location">Rua São José, 485 - Centro <em>Ubá / MG</em></strong>
-              <span class="label label-success col-md-12">R$ 1.500</span>
-              <br />
-             <a href="propriedades-detalhes.html" class="btn btn-primary btn-block">Conheça</a>
-             <!-- <div class="hero-agent">
-                  <img src="images/aartolex.jpg" alt="" class="hero-agent-pic">
-                  <a href="detalhes-agente.html" class="hero-agent-contact" data-placement="left"  data-toggle="tooltip" title="" data-original-title="Fale com a Artolex!"><i class="fa fa-envelope"></i></a>
-             </div> -->
+          <div class="container">
+            <div class="row">
+              <div class="flex-caption col-md-10 col-sm-6 col-xs-6">
+                  <strong class="title location">Rua São José, 485 - Centro <em>Ubá / MG</em></strong>
+                  <span class="label label-success col-md-12">R$ 1.500</span>
+                  <br />
+                 <a href="propriedades-detalhes.html" class="btn btn-primary btn-block">Conheça</a>
+                 <!-- <div class="hero-agent">
+                      <img src="images/aartolex.jpg" alt="" class="hero-agent-pic">
+                      <a href="detalhes-agente.html" class="hero-agent-contact" data-placement="left"  data-toggle="tooltip" title="" data-original-title="Fale com a Artolex!"><i class="fa fa-envelope"></i></a>
+                 </div> -->
+              </div>
+            </div>
           </div>
         </li>
         <li class="parallax" style="background-image:url(images/slide3.jpg);">

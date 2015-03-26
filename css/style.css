@@ -881,16 +881,16 @@ html[xmlns] .slides {
 	background:#ffffff;
 	border:1px solid rgba(0,0,0,.3);
 	/*position:absolute; */
-	margin-right:-500px;
-	position:relative;
+	/*margin-right:-500px;*/
+	/*position:relative;*/
 	/*-webkit-border-radius:3px;
 	-moz-border-radius:3px;
 	border-radius:3px;*/
 
   /* margin-top: 110px; */
-  width: 40%;
+  /*width: 40%;*/
   /* position: absolute; */
-  right: 43.2%;
+  /*right: 43.2%;*/
 }
 .flex-caption strong.title{
 	font-size:20px;
@@ -1211,7 +1211,7 @@ html[xmlns] .slides {
 .property-info, .agent-info{
 	padding:15px;
 	display:block;
-	border-bottom:1px solid #efefef;
+	/*border-bottom:1px solid #efefef;*/
 }
 .property-amenities{
 	background:#f8f8f8;
