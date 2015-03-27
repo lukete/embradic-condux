@@ -16,6 +16,7 @@
 <link href="plugins/prettyphoto/css/prettyPhoto.css" rel="stylesheet" type="text/css">
 <link href="plugins/owl-carousel/css/owl.carousel.css" rel="stylesheet" type="text/css">
 <link href="plugins/owl-carousel/css/owl.theme.css" rel="stylesheet" type="text/css">
+
 <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="css/ie.css" media="screen" /><![endif]-->
 
 <link href="css/cor.css" rel="stylesheet" type="text/css">
@@ -97,7 +98,7 @@
         <li class=" parallax" style="background-image:url(images/slide2.jpg);">
           <div class="container">
             <div class="row">
-              <div class="flex-caption col-md-10 col-sm-6 col-xs-6">
+              <div class="flex-caption col-md-12 col-sm-6 col-xs-6">
                   <strong class="title location">Rua São José, 485 - Centro <em>Ubá / MG</em></strong>
                   <span class="label label-success col-md-12">R$ 1.500</span>
                   <br />
@@ -111,17 +112,22 @@
           </div>
         </li>
         <li class="parallax" style="background-image:url(images/slide3.jpg);">
-          <div class="flex-caption">
-             <strong class="title location">Rua Prof. Carlos Machado, 285 apto 302 - Boa Vista <em>Ubá / MG</em></strong>
-             <span class="label label-success col-md-12">R$ 1.500</span>
-             <br />
-              <a href="propriedades-detalhes.html" class="btn btn-primary btn-block">Conheça</a>
-             <!-- <div class="hero-agent">
-                  <img src="images/aartolex.jpg" alt="" class="hero-agent-pic">
-                  <a href="detalhes-agente.html" class="hero-agent-contact" data-placement="left"  data-toggle="tooltip" title="" data-original-title="Fale com a Artolex!"><i class="fa fa-envelope"></i></a>
+           <div class="container">
+            <div class="row">
+            <div class="flex-caption col-md-12 col-sm-6 col-xs-6">
+               <strong class="title location">Rua Prof. Carlos Machado, 285 apto 302 - Boa Vista <em>Ubá / MG</em></strong>
+               <span class="label label-success col-md-12">R$ 1.500</span>
+               <br />
+                <a href="propriedades-detalhes.html" class="btn btn-primary btn-block">Conheça</a>
+               <!-- <div class="hero-agent">
+                    <img src="images/aartolex.jpg" alt="" class="hero-agent-pic">
+                    <a href="detalhes-agente.html" class="hero-agent-contact" data-placement="left"  data-toggle="tooltip" title="" data-original-title="Fale com a Artolex!"><i class="fa fa-envelope"></i></a>
+                </div>
+            </div> -->
               </div>
-          </div> -->
-        </li>
+            </div>
+          </div>
+          </li>
       </ul>
     </div>
     
@@ -129,6 +135,13 @@
 
   <div class="main" role="main">
     <div id="content" class="content full">
+    <div data-toggle="tooltip" data-placement="top" title="Clicando aqui você poderá utilizar diversos filtros.">
+      <button class="btn btn-primary col-md-12 col-sm-6" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+        Pesquisar imóveis
+      </button>
+    </div>
+<div class="collapse" id="collapseExample">
+  <div class="well">
     <!-- SITE SEARCH -->
     <div class="site-search-module" id="option-fixed">
       <div class="container">
@@ -137,8 +150,8 @@
           <form action="#">
             <div class="form-group">
               <div class="row">
-                <div class="col-md-4">
-                    <select multiple name="propery type" class="form-control input-sm selectpicker">
+                <div class="col-md-3">
+                    <select multiple name="propery type" class="form-control input-lg selectpicker">
                         <option selected>Tipo de imóvel</option>
                         <option>Casa</option>
                         <option>Apartamento</option>
@@ -148,15 +161,15 @@
                         <option>Sítio</option>
                     </select>
                 </div>
-                <div class="col-md-2">
-                    <select multiple name="propery contract type" class="form-control input-sm selectpicker">
+                <div class="col-md-3">
+                    <select multiple name="propery contract type" class="form-control input-lg selectpicker">
                       <option selected>Interesse</option>
                       <option>Comprar</option>
                       <option>Alugar</option>
                     </select>
                 </div>
-                <div class="col-md-2">
-                    <select multiple name="propery location" class="form-control input-sm selectpicker">
+                <div class="col-md-3">
+                    <select multiple name="propery location" class="form-control input-lg selectpicker">
                       <option selected>Cidade</option>
                       <option>Ubá</option>
                       <option>Rodeiro</option>
@@ -167,8 +180,8 @@
                       <option>Astolfo Dutra</option>
                     </select>
                 </div>
-                 <div class="col-md-2">
-                    <select multiple name="propery location" class="form-control input-sm selectpicker">
+                 <div class="col-md-3">
+                    <select multiple name="propery location" class="form-control input-lg selectpicker">
                       <option selected>Bairro</option>
                       <option>Centro</option>
                       <option>Palmeiras</option>
@@ -181,61 +194,33 @@
               </div>
               <div class="row">
                 <div class="col-md-3">
-                  <label>Mínimo de Quartos</label>
-                    <select multiple name="beds" class="form-control input-sm selectpicker">
-                      <option selected>Qualquer</option>
-                      <option>1</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                      <option>5</option>
-                      <option>6</option>
-                      <option>7</option>
-                      <option>8</option>
-                      <option>9</option>
-                      <option>10</option>
-                    </select>
+                  <label>Quartos</label>
+                  <div class="input-group">
+                    <input type="text" class="form-control input-lg" placeholder="Mínimo de Quartos" aria-describedby="basic-addon2">
+                    <span class="input-group-addon" id="basic-addon2"><span class="beds"><strong></strong><i class="icon-bed"></i></span></span>
+                  </div>
                 </div>
                 <div class="col-md-3">
-                  <label>Mínimo de Banheiros</label>
-                    <select multiple name="beds" class="form-control input-sm selectpicker">
-                      <option selected>Qualquer</option>
-                      <option>1</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                      <option>5</option>
-                      <option>6</option>
-                      <option>7</option>
-                      <option>8</option>
-                      <option>9</option>
-                      <option>10</option>
-                    </select>
-                </div>
-                <div class="col-md-2">
-                  <label>Preço Mínimo</label>
-                    <select multiple name="beds" class="form-control input-sm selectpicker">
-                      <option selected>Qualquer</option>
-                      <option>R$ 500,00</option>
-                      <option>R$ 1.000,00</option>
-                      <option>R$ 1.500,00</option>
-                      <option>R$ 2.000,00</option>
-                      <option>R$ 2.500,00</option>
-                      <option>R$ 3.000,00</option>
-                    </select>
-                </div>
-                <div class="col-md-2">
-                  <label>Preço Máximo</label>
-                    <select multiple name="beds" class="form-control input-sm selectpicker">
-                      <option selected>Qualquer</option>
-                      <option>R$ 500,00</option>
-                      <option>R$ 1.000,00</option>
-                      <option>R$ 1.500,00</option>
-                      <option>R$ 2.000,00</option>
-                      <option>R$ 2.500,00</option>
-                      <option>R$ 3.000,00</option>
-                    </select>
-                </div>
+                  <label>Banheiros</label>
+                  <div class="input-group">
+                    <input type="text" class="form-control input-lg" placeholder="Mínimo de Banheiros" aria-describedby="basic-addon2">
+                    <span class="input-group-addon" id="basic-addon2"><span class="bath"><strong></strong><i class="icon-bath"></i></span></span>
+                  </div>
+                  </div>
+                   <div class="col-md-3">
+                  <label>Área</label>
+                  <div class="input-group">
+                    <input type="text" class="form-control input-lg" placeholder="Mínimo de Mts²" aria-describedby="basic-addon2">
+                    <span class="input-group-addon" id="basic-addon2"><span class="sqft"><strong></strong><i class="icon-sqft"></i></span></span>
+                  </div>
+                  </div>
+                <div class="col-md-3">
+                  <label>Garagem</label>
+                  <div class="input-group">
+                    <input type="text" class="form-control input-lg" placeholder="Mínimo de Mts²" aria-describedby="basic-addon2">
+                    <span class="input-group-addon" id="basic-addon2"><span class="garage"><strong></strong><i class="icon-garage"></i></span></span>
+                  </div>
+                  </div>
                 </div>
                 <br />
                 <div class="col-md-12"> <button type="submit" class="btn btn-primary btn-block btn-lg"><i class="fa fa-search"></i> Encontrar</button> 
@@ -245,7 +230,9 @@
         </div>
       </div>
     </div> <!-- SITE SEARCH -->
-    <br /> <br />
+  </div>
+</div>
+     <div class="spacer-40"></div>
     <!--
       <div class="featured-blocks">
         <div class="container">
@@ -508,28 +495,19 @@
                   <div class="col-md8 col-sm-8 popular-agent column">
                       <h3>Serviço de Terraplenagem</h3>
                     <a href="detalhes-agente.html"><img src="images/terraplanagem.jpg" alt="" class="img-thumbnail"></a> 
-                    <div class="row">
-                      <div class="col-md-9 col-sm-9 col-xs-9">
-                          <h4><a href="detalhes-agente.html">Conheça nosso serviço de terraplanagem, entre em contato.</a></h4>
-                              <a href="detalhes-agente.html" class="btn btn-lg btn-primary">mais informações</a>
-                       </div>
-                       <div class="col-md-9 col-sm-9 col-xs-9">
-                              <ul class="contact-info">
-                                  <li><i class="fa fa-phone"></i> +55 (32) 3531-7544</li>
-                               <li><i class="fa fa-envelope"></i>solucao@artolex.com.br</li>
-                           </ul>
-                       </div>
-                    </div>
                 </div>
+
                   <div class="col-md-4 col-sm-4 latest-testimonials column">
-                      <h3>Depoimentos dos Clientes</h3>
-                    <ul class="testimonials">
+                      <h3> </h3>
+                    <ul>
                       <li>
-                              <p>Deixar meus imóveis por conta da Artolex foi a melhor decisão que tomei. Assim fico tranquilo de que meus bens estão sendo bem cuidados e administrados da melhor forma. Obrigado à equipe Artolex!</p>
-                          <img src="images/agentes.jpg" alt="Opnião do Cliente" class="testimonial-sender">
-                              <cite>Marinho - <strong>Embradic</strong>
-                              <br><a href="#">www.embradic.com</a>
-                           </cite>
+                              <p>Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+                              Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+                              Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+                              Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+                              <a href="detalhes-agente.html" class="btn btn-lg btn-primary col-md-12">mais informações</a>
+                              <br />
+                              <br />
                         </li>
                     </ul> 
                 </div>
@@ -540,7 +518,27 @@
   </div>
 
   <footer class="site-footer">
-      <div class="container">
+    <div class="container">
+      <div class="row">
+       <div class="col-md-12 col-sm-12 latest-testimonials column">
+              <h3>Opniões</h3>
+            <ul class="testimonials">
+              <li>
+                      <p>Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+                  <img src="images/agentes.jpg" alt="Opnião do Cliente" class="testimonial-sender">
+                      <cite>Marinho - <strong>Embradic</strong>
+                      <br><a href="#">www.embradic.com</a>
+                   </cite>
+                </li>
+            </ul> 
+        </div>
+    </div>
+      </div>
+      <br />
+      <br />
+      <div class="container" style="box-shadow: inset 0 2px 0 0px rgba(0,0,0,.07);">
+      <br />
+      <br />
           <div class="row">
             <div class="col-md-3 col-sm-6 footer-widget widget">
                 <h3 class="widgettitle">Lorem</h3>

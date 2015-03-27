@@ -113,6 +113,9 @@ var REAL = window.REAL || {};
 	REAL.toolTip = function(){ 
 		$('a[data-toggle=tooltip]').tooltip();
 	}
+	$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
 	REAL.TwitterWidget = function() {
 		$('.twitter-widget').each(function(){
 			var twitterInstance = $(this); 

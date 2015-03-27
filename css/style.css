@@ -1087,7 +1087,7 @@ html[xmlns] .slides {
 	padding:15px 15px 0;
 	height:260px;
 	background:#f8f8f8;
-	border-top:1px solid rgba(0,0,0,.8);
+	border-left:1px solid rgba(0,0,0,.8);
 	/*border-radius:15px 15px 0 0*/
 }
 .site-search-module-inside .btn{
@@ -1214,7 +1214,7 @@ html[xmlns] .slides {
 	/*border-bottom:1px solid #efefef;*/
 }
 .property-amenities{
-	background:#f8f8f8;
+	background: #FBEFE4;
 }
 .property-amenities > span{
 	display:block;
@@ -1235,6 +1235,9 @@ html[xmlns] .slides {
 }
 .property-info h4, .agent-info h4{
 	margin-bottom:0;
+}
+.property-info > h4 a{
+	color: #5e5e5e !important;
 }
 .property-info .location{
 	display:block;
@@ -1361,6 +1364,7 @@ html[xmlns] .slides {
 	background:#fff;
 	padding:25px;
 	position:relative;
+	border-radius: 9px;
 }
 .testimonials > li > p:before, .testimonials > li > p:after {
 	content: "";
@@ -3131,15 +3135,15 @@ span.progress-bar-tooltip:after {
 		margin-bottom:0
 	}
 	
-	.property-amenities .icon-bed {
+	.icon-bed {
 		background: url(../images/bed.png) no-repeat scroll left center;
 	}
 	
-	.property-amenities .icon-bath {
+	.icon-bath {
 		background: url(../images/bath.png) no-repeat scroll left center;
 	}
 	
-	.property-amenities .icon-garage {
+	.icon-garage {
 		background: url(../images/garage.png) no-repeat scroll left center;
 	}
 	
@@ -3151,11 +3155,11 @@ span.progress-bar-tooltip:after {
 		background: url(../images/pool.png) no-repeat scroll left center;
 	}
 		
-	.property-amenities .icon-sqft {
+	.icon-sqft {
 		background: url(../images/sqft.png) no-repeat scroll left center;
 	}
 	
-	.property-amenities [class^="icon-"] {
+	*[class^="icon-"] {
 		display: inline-block;
 		height: 20px;
 		margin-right: 2px;
