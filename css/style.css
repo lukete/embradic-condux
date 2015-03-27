@@ -1087,7 +1087,7 @@ html[xmlns] .slides {
 	padding:15px 15px 0;
 	height:260px;
 	background:#f8f8f8;
-	border-left:1px solid rgba(0,0,0,.8);
+	/*border-left:1px solid rgba(0,0,0,.8);*/
 	/*border-radius:15px 15px 0 0*/
 }
 .site-search-module-inside .btn{
@@ -3043,6 +3043,7 @@ span.progress-bar-tooltip:after {
 #option-fixed{
 	float: right;
 	z-index: 100;
+	background-color: rgba(229, 120, 21, 0.11);
 }
 .label {padding: 12px 12px;}
 
