@@ -89,112 +89,60 @@
     </div>
 
   </header>
-  
+
 <div class="site-showcase"> 
-  <div class="parallax page-header" style="background-image:url(images/slider-topo.jpg);">
     <div class="container">
      	<h1>Minha Conta</h1>
     </div>
-  </div>
 </div>
 <div class="main" role="main">
-  <div id="content" class="content full">
-    <div class="container">
-      <div class="page">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="single-agent">
-              <div class="counts pull-right"> <strong>Membro desde </strong> <span>Segunda, 01 Março de 2015</span></div>
-              <h2 class="page-title"> Lucas Henrique </h2>
-            </div>
-            <form name="profile" action="" method="post" id="agent-profile-form" enctype="multipart/form-data">
-              <div class="block-heading" id="details">
-                <h4><span class="heading-icon"><i class="fa fa-user"></i></span>Detalhes do Perfil ( Lucas Henrique )</h4>
-              </div>
-              <div class="padding-as25 margin-30 lgray-bg">
-                <div class="row">
-                  <div class="col-md-4 col-sm-4">
-                    <input type="text" name="first_name" id="first_name" value="" class="form-control first_name" placeholder="Primeiro Nome">
-                  </div>
-                  <div class="col-md-4 col-sm-4">
-                    <input type="text" name="last_name" id="last_name" value=""  class="form-control last_name" placeholder="Sobrenome">
-                  </div>
-                  <div class="col-md-4 col-sm-4">
-                    <input type="email" id="email" value="email@mail.com" name="email" class="form-control email1" placeholder="Email">
-                  </div>
+      <div id="content" class="content full">
+          <div class="container">
+              <div class="page">
+              <div class="row">
+                    <div class="col-md-8 col-sm-8 register-form">
+                          <h3>Dados (Lucas Henrique)</h3>
+                          <form>
+                            <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                    <input type="text" class="form-control input-lg" placeholder="Nome">
                 </div>
-                <div class="row">
-                  <div class="col-md-4 col-sm-4">
-                    <label for="password">Trocar Senha</label>
-                  </div>
-                  <div class="col-md-4 col-sm-4">
-                    <input type="password" value="" name="pass1" id="pass1" class="form-control pwd1" placeholder="Nova Senha">
-                  </div>
-                  <div class="col-md-4 col-sm-4">
-                    <input type="password" value="" name="pass2" id="pass2" class="form-control pwd2" placeholder="Confirmar Senha">
-                  </div>
+                             <br>
+                            <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                    <input type="email" class="form-control input-lg" placeholder="Email">
                 </div>
-              </div>
-              <div class="block-heading" id="additionalinfo">
-                <h4><span class="heading-icon"><i class="fa fa-plus"></i></span>Descrição Pessoal</h4>
-              </div>
-              <div class="padding-as25 margin-30 lgray-bg">
-                <div class="row">
-                  <div class="col-md-4 col-sm-4 ">
-                    <label>Sobre</label>
-                  </div>
-                  <div class="col-md-8 col-sm-8 submit-description">
-                    <textarea name="description" id="description" class="form-control margin-0" rows="5" cols="10" placeholder="Fale sobre você" ></textarea>
-                  </div>
+                 <br>
+                     <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                    <input type="email" class="form-control input-lg" placeholder="Senha">
                 </div>
-                <hr>
-                <div class="row">
-                  <div class="col-md-4 col-sm-4">
-                    <label>Foto</label>
-                    <p>Insira uma foto em seu perfil</p>
-                  </div>
-                  <div class="col-md-8 col-sm-8 submit-image">
-                    <div class="image-placeholder"><img src="" class="image-placeholder" id="agent-image" alt="600x400 (JPG)"/></div>
-                    <input type="file" name="agent-image" id="agent-image" onChange="readURL(this);">
-                  </div>
+                 <br>
+                     <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                    <input type="email" class="form-control input-lg" placeholder=" Confirmar Senha">
                 </div>
-              </div>
-              <div class="block-heading" id="amenities">
-                <h4><span class="heading-icon"><i class="fa fa-phone"></i></span>Contatos</h4>
-              </div>
-              <div class="padding-as25 margin-30 lgray-bg">
-                <div class="row">
-                  <div class="col-md-6 col-sm-6">
-                    <input type="text" value="" name="mobile-phone"  id="mobile-phone" class="form-control" placeholder="Celular">
-                  </div>
-                  <div class="col-md-6 col-sm-6">
-                    <input type="text" value="" name="work-phone" id="work-phone" class="form-control" placeholder="Fixo">
-                  </div>
+                             <br>
+                            <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-phone"></i></span>
+                    <input type="phone" class="form-control input-lg" placeholder="Telefone 1">
                 </div>
-              </div>
-              <div class="block-heading" id="amenities">
-                <h4><span class="heading-icon"><i class="fa fa-group"></i></span>Rede Social</h4>
-              </div>
-              <div class="padding-as25 margin-30 lgray-bg">
-                <div class="row">
-                  <div class="col-md-6 col-sm-6">
-                    <input type="text" value="" name="fb-link" id="fb-link" class="form-control" placeholder="Facebook">
-                  </div>
-                  <div class="col-md-6 col-sm-6">
-                    <input type="text" value="" name="twt-link" id="twt-link" class="form-control" placeholder="Twitter">
-                  </div>
+                             <br>
+                            <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-phone"></i></span>
+                    <input type="phone" class="form-control input-lg" placeholder="Telefone 2">
                 </div>
-              </div>
-              <div class="text-align-center" id="submit-property">
-                <button type="submit" name="submit" class="btn btn-primary btn-lg cus_submit"><i class="fa fa-check"></i> Salvar</button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 
+                             <br>
+                             <button type="submit" class="btn btn-primary">Salvar</button>
+                        </form>
+                  </div>
+                </div>
+            </div>
+          </div>
+      </div>
+  </div>
+  
   <footer class="site-footer">
     <div class="container">
       <div class="row">
