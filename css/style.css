@@ -1439,9 +1439,12 @@ html[xmlns] .slides {
 	margin:0 0 0 8px;
 	text-decoration:none;
 }
+.property-info h3 a{
+	color: #000 !important;
+}
 
 .property-listing > ul > li, .agents-listing > ul > li{
-	border:1px solid #eee;
+	/*border:1px solid #eee;
 	-webkit-transition:all 0.3s ease 0.2s;
 	-moz-transition:all 0.3s ease 0.2s;
 	-ms-transition:all 0.3s ease 0.2s;
@@ -1452,7 +1455,7 @@ html[xmlns] .slides {
 	padding-top:20px;
 	padding-bottom:20px;
 	padding-left:5px;
-	padding-right:5px;
+	padding-right:5px;*/
 }
 .property-listing > ul > li:hover, .agents-listing > ul > li:hover{
 	-webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
