@@ -96,7 +96,7 @@
     <div class="hero-slider flexslider clearfix" data-autoplay="yes" data-pagination="no" data-arrows="yes" data-style="fade" data-pause="yes">
       <ul class="slides">
         <li class=" parallax" style="background-image:url(images/slide2.jpg);">
-          <div class="container">
+          <div class="container" style="margin-top: 20px;">
             <div class="row">
               <div class="flex-caption col-md-12 col-sm-6 col-xs-6">
                   <strong class="title location">Rua São José, 485 - Centro <em>Ubá / MG</em></strong>
@@ -112,7 +112,7 @@
           </div>
         </li>
         <li class="parallax" style="background-image:url(images/slide3.jpg);">
-           <div class="container">
+           <div class="container"  style="margin-top: 20px;">
             <div class="row">
             <div class="flex-caption col-md-12 col-sm-6 col-xs-6">
                <strong class="title location">Rua Prof. Carlos Machado, 285 apto 302 - Boa Vista <em>Ubá / MG</em></strong>
@@ -221,6 +221,22 @@
                     <span class="input-group-addon" id="basic-addon2"><span class="garage"><strong></strong><i class="icon-garage"></i></span></span>
                   </div>
                   </div>
+<div class="col-md-6">
+                  <label>Preço mínimo</label>
+                  <div class="input-group">
+                    <input type="text" class="form-control input-lg" placeholder="R$" aria-describedby="basic-addon2">
+                    <span class="input-group-addon" id="basic-addon2"><span class="garage"><strong></strong><i class="icon-garage"></i></span></span>
+                  </div>
+                  </div>
+
+                  <div class="col-md-6">
+                  <label>Preço máximo</label>
+                  <div class="input-group">
+                    <input type="text" class="form-control input-lg" placeholder="R$" aria-describedby="basic-addon2">
+                    <span class="input-group-addon" id="basic-addon2"><span class="garage"><strong></strong><i class="icon-garage"></i></span></span>
+                  </div>
+                  </div>
+
                 </div>
                 <br />
                 <div class="col-md-12"> <button type="submit" class="btn btn-primary btn-block btn-lg"><i class="fa fa-search"></i> Encontrar</button> 
@@ -253,14 +269,16 @@
         </div>
       </div>
 -->
-      <div class="spacer-40"></div>
+      
     <div class="container">
       <div class="row">
           <div class="property-columns" id="latest-properties">
               <div class="col-md-12">
-                <div class="block-heading">
-                  <h4>Recém Cadastrados</h4>
-                </div>
+                
+              
+            <div class="bs-callout bs-callout-info" id="callout-alerts-no-default">
+    <h4 id="no-default-class"><i class="fa fa-star-half"></i> NOVIDADES</h4>
+  </div>    
               </div>
               <ul>
                 <li class="col-md-4 col-sm-6 type-rent">
@@ -396,16 +414,19 @@
       </div>
       <br />
       <br />
-      <br />
       <div id="featured-properties">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <div class="block-heading">
-                <h4>Destaques</h4>
-              </div>
+            
+              
+            <div class="bs-callout bs-callout-info" id="callout-alerts-no-default">
+    <h4 id="no-default-class"><i class="fa fa-legal"></i> DESTAQUES</h4>
+  </div>    
+              
             </div>
           </div>
+          <br />
           <div class="row">
               <ul class="owl-carousel owl-alt-controls" data-columns="4" data-autoplay="no" data-pagination="no" data-arrows="yes" data-single-item="no">
                   <li class="item property-block">
@@ -505,7 +526,7 @@
                               Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
                               Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
                               Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
-                              <a href="#" class="btn btn-lg btn-primary col-md-12">mais informações</a>
+                              <a href="#" class="btn btn-lg btn-primary col-md-12" data-toggle="modal" data-target=".bs-example-modal-lg">mais informações</a>
                               <br />
                               <br />
                         </li>
@@ -516,7 +537,26 @@
       </div>
     </div>
   </div>
-
+  <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="false">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+          <h4 class="modal-title" id="myLargeModalLabel">Serviço de Terraplenagem<a class="anchorjs-link" href="#myLargeModalLabel"></a></h4>
+        </div>
+        <div class="modal-body">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam euismod sollicitudin nunc, eget pretium massa. Ut sed adipiscing enim, pellentesque ultrices erat. Integer placerat felis neque, et semper augue ullamcorper in. Pellentesque iaculis leo iaculis aliquet ultrices. Suspendisse potenti. Aenean ac magna faucibus, consectetur ligula vel, feugiat est. Nullam imperdiet semper neque eget euismod. Nunc commodo volutpat semper.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam euismod sollicitudin nunc, eget pretium massa. Ut sed adipiscing enim, pellentesque ultrices erat. Integer placerat felis neque, et semper augue ullamcorper in. Pellentesque iaculis leo iaculis aliquet ultrices. Suspendisse potenti. Aenean ac magna faucibus, consectetur ligula vel, feugiat est. Nullam imperdiet semper neque eget euismod. Nunc commodo volutpat semper.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam euismod sollicitudin nunc, eget pretium massa. Ut sed adipiscing enim, pellentesque ultrices erat. Integer placerat felis neque, et semper augue ullamcorper in. Pellentesque iaculis leo iaculis aliquet ultrices. Suspendisse potenti. Aenean ac magna faucibus, consectetur ligula vel, feugiat est. Nullam imperdiet semper neque eget euismod. Nunc commodo volutpat semper.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam euismod sollicitudin nunc, eget pretium massa. Ut sed adipiscing enim, pellentesque ultrices erat. Integer placerat felis neque, et semper augue ullamcorper in. Pellentesque iaculis leo iaculis aliquet ultrices. Suspendisse potenti. Aenean ac magna faucibus, consectetur ligula vel, feugiat est. Nullam imperdiet semper neque eget euismod. Nunc commodo volutpat semper.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Sair</button>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div>
   <footer class="site-footer">
     <div class="container">
       <div class="row">
